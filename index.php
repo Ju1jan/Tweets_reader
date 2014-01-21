@@ -3,7 +3,7 @@
 <?
 require_once('libs/twitteroauth.php');
 require_once('config/config.php');
-require_once("processing/reader.php");
+require_once('processing/reader.php');
 ?>
 <head>
     <title>Twitter reader</title>
@@ -24,7 +24,6 @@ require_once("processing/reader.php");
             <article>
                 <textarea class="content">
                     <p><?  oAuth_twitter_reader();  ?></p>
-
                 </textarea>
              </article>
         </div>
