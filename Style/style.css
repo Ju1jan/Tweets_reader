@@ -27,7 +27,9 @@ body{
     height: 100%;
     width: 200px;
     float: left;
-    background-color: green;
+    background-color: #909b91;
+    text-align: center;
+    padding: 10 0px;
 }
 
 .right_column{
@@ -39,6 +41,11 @@ body{
     min-width: 600px;
 }
 
-.footer{
+p{
+    padding: 10px;
+}
 
+.content{
+    width: 100px;
+    height: 100px;
 }
