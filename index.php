@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?
-require_once('Libs/twitteroauth.php');
+require_once('libs/twitteroauth.php');
 require_once('config/config.php');
 require_once("processing/reader.php");
 ?>
