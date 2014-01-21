@@ -18,13 +18,14 @@ require_once('processing/reader.php');
         <aside class="left_column">
             <p><a href="index.php">First</a> </p>
             <p><a href="index.php">Second</a> </p>
+
         </aside>
 
         <div class="right_column">
             <article>
-                <textarea class="content">
+                <div class="content">
                     <p><?  oAuth_twitter_reader();  ?></p>
-                </textarea>
+                </div>
              </article>
         </div>
 

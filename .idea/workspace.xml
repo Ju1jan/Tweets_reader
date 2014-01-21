@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f509ec79-71e8-417a-9c9f-118abb1287b0" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\WebServers\home\test1.ru\www\Twitter_reader\1index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5e7ed1b8-4ba2-4242-a23f-7337a97e0324" name="Failed commit: Default" comment="testestest" />
@@ -36,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="17" selection-start="453" selection-end="454" vertical-scroll-proportion="0.41154563" vertical-offset="102" max-vertical-offset="697">
+            <state line="19" column="17" selection-start="453" selection-end="454" vertical-scroll-proportion="-8.5" vertical-offset="102" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reader.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reader.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/processing/reader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="167" selection-end="167" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="935">
+            <state line="25" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.7434402" vertical-offset="170" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -80,6 +80,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/1index.php" />
+        <option value="$PROJECT_DIR$/processing/reader.php" />
       </list>
     </option>
   </component>
@@ -257,14 +258,18 @@
       <created>1390311111194</created>
       <updated>1390311111194</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testestest">
+      <created>1390314275169</created>
+      <updated>1390314275169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1376" height="738" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -343,16 +348,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processing/reader.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="167" selection-end="167" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="935">
+        <state line="19" column="17" selection-start="453" selection-end="454" vertical-scroll-proportion="-8.5" vertical-offset="102" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/processing/reader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="453" selection-end="454" vertical-scroll-proportion="0.41154563" vertical-offset="102" max-vertical-offset="697">
+        <state line="25" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.7434402" vertical-offset="170" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
