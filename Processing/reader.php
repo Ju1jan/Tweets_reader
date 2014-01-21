@@ -7,16 +7,24 @@ function oAuth_twitter_reader()
 {
     $oauth = new TwitterOAuth(TWITTER_KEY, TWITTER_SECRET, OAUTH_TOKEN, OAUTH_SECRET);          //инициализируем класс с ключами доступа
 
-    $friend_id = $oauth->get('friends/ids'); //получаем id всех друзей
+    $response = $oauth->get('friends/ids');
 
-    //извлекаем id ользователя
-    foreach($friend_id as $key)
-    {
-        //var_dump($key);
-        foreach($key as $id_key => $value){
-            echo("<p>"."Message from id:".$value."</p>");
+    /*print '<pre>';
+    print_r($response);
+    print '</pre>';*/
 
-            $tweets = $oauth->get('statuses/user_timeline', array('user_id' => $value));  //получаем последние сообщения пользователя по id
+    if (!empty($response->errors)){
+        foreach ($response->errors as $val)
+        {
+            //var_dump($val);
+            echo("Error: " . $val->message . " Code is: " . $val->code);
+        }
+    }
+    else{
+        //var_dump($response);
+        foreach ($response->ids as $val) {
+            echo("<p>"."User id: ".$val."</p>");
+            $tweets = $oauth->get('statuses/user_timeline', array('user_id' => $val));  //получаем последние сообщения пользователя по id
 
             foreach($tweets as $tweet_key)                                                //выводим сообщения
             {
@@ -25,7 +33,4 @@ function oAuth_twitter_reader()
         }
     }
 }
-
-//oAuth_twitter_reader();
-
 ?>
