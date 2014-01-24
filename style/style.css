@@ -48,8 +48,13 @@ body{
     min-width: 600px;
 }
 
+.right_column p{
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
 .content p{
-    padding: 10px;
+    padding: 5px;
     border: 1px solid gray;
     border-bottom: none;
 }
@@ -98,6 +103,9 @@ ul.menu_head li:hover ul{
     z-index: 1000;
 }
 
-/*a{*/
-    /*cursor: pointer;*/
-/*}*/
+.content p span{
+    font-family: Sans-Serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}

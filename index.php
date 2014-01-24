@@ -11,9 +11,9 @@ require_once('processing/reader.php');
 </head>
 <body>
 
-    <div class="container">
+    <header class="header"><p>Hello! (^_^)/ </p></header>
 
-        <header class="header">Hello! (^_^)/ </header>
+    <div class="container">
 
         <aside class="left_column">
             <ul class="menu_head">
@@ -30,7 +30,7 @@ require_once('processing/reader.php');
         <div class="right_column">
             <article>
                 <div class="content">
-                    <p><?  oAuth_twitter_reader();  ?></p>
+                    <? oAuth_twitter_reader();  ?>
                 </div>
              </article>
         </div>
