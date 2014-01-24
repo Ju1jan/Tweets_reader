@@ -16,9 +16,15 @@ require_once('processing/reader.php');
         <header class="header">Hello! (^_^)/ </header>
 
         <aside class="left_column">
-            <p><a href="index.php">First</a> </p>
-            <p><a href="index.php">Second</a> </p>
-
+            <ul class="menu_head">
+                <li><a href="">Menu</a>
+                    <ul>
+                        <li><a href="">One</a></li>
+                        <li><a href="">Two</a></li>
+                        <li><a href="">Three</a></li>
+                    </ul>
+                </li>
+            </ul>
         </aside>
 
         <div class="right_column">
