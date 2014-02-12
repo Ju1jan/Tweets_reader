@@ -1,5 +1,5 @@
 <?php
-function p($value, $emp, $print){
+function p($value, $emp = ':', $print = 'v'){
     if(!empty($emp)){
         print ($emp."  :");
     }
