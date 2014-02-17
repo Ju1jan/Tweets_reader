@@ -17,7 +17,7 @@ function oAuth_twitter_reader() {
 
     $filter_config = include_once('/../config/filter_config.php');
     $db_config = include_once('/../config/db_config.php');
-
+    $db_proc_class = new DB_tweet_proc();
     $oauth = new TwitterOAuth(TWITTER_KEY, TWITTER_SECRET, OAUTH_TOKEN, OAUTH_SECRET); //инициализируем класс с ключами доступа
 
     $response = $oauth->get('friends/ids'); //получаем id друзей
@@ -46,7 +46,7 @@ function oAuth_twitter_reader() {
 
         if (!empty($tweets)) {
             foreach ($tweets as $tweet_key) {                       //выводим сообщения из массива по ключу
-                $db_proc_class = new DB_tweet_proc($db_config);
+
                 $db_proc_class->base_save_mes($user_id, $user_name, $tweet_key->text, $tweet_key->created_at); //ok
 
                 //saveToBase($db_config, $user_name, $tweet_key->text, $user_id, $tweet_key->created_at);
