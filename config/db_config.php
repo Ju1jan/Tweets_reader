@@ -1,6 +1,7 @@
 <?php
 return array(
-                'user_name' => 'name',
-                'db_name' => 'dbname',
-                'db_pass' => 'pass',
-                'table_name' => 'tbname');
+                'user_name' => 'root',
+                'db_name' => 'tweets_base',
+                'db_pass' => '',
+                'table_name' => 'tweets');
+

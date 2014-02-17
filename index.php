@@ -4,6 +4,7 @@
 require_once('libs/twitteroauth.php');
 require_once('config/config.php');
 require_once('processing/reader.php');
+
 ?>
 <head>
     <title>Twitter reader</title>
@@ -30,7 +31,9 @@ require_once('processing/reader.php');
         <div class="right_column">
             <article>
                 <div class="content">
+                    <? //base_mes_read(); ?>
                     <? oAuth_twitter_reader();  ?>
+
                 </div>
              </article>
         </div>
