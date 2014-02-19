@@ -7,7 +7,7 @@ class DB_tweet_proc { //TODO: class name??
     public $connect_link;
 
     function __construct() {
-        $db_config = include_once('/../config/db_config.php');
+        $db_config = include __DIR__ .'/../config/db_config.php';
         p($db_config); //TODO: $db_config == true!!??
 
         $this->connect_link = mysql_connect("127.0.0.1", 'root'/*$db_config['user_name']*/, "") or die("Can't connect" . mysql_error());

@@ -6,17 +6,17 @@ require_once('DB_tweet_proc.php');
 //require_once('../config/config.php');
 
 /** PHPExcel */
-include '/../libs/PHPExcel.php';
+include __DIR__ . '/../libs/PHPExcel.php';
 
 /** PHPExcel_Writer_Excel2007 */
-include '/../libs/PHPExcel/Writer/Excel2007.php';
+include __DIR__ . '/../libs/PHPExcel/Writer/Excel2007.php';
 
 
 function oAuth_twitter_reader() {
     //svEx(); save to excel
 
-    $filter_config = include_once('/../config/filter_config.php');
-    $db_config = include_once('/../config/db_config.php');
+    $filter_config = include_once(__DIR__ . '/../config/filter_config.php');
+    $db_config = include_once(__DIR__ . '/../config/db_config.php');
     $db_proc_class = new DB_tweet_proc();
     $oauth = new TwitterOAuth(TWITTER_KEY, TWITTER_SECRET, OAUTH_TOKEN, OAUTH_SECRET); //инициализируем класс с ключами доступа
 
